@@ -3,12 +3,12 @@
 main model file: `obesity_estimation_si.ipynb`
 
 Exploratiory data analysis was made at the begining to determine what features are most important and to know their correlations.
-Then quick check how random forest will perform (quite good actually - 93% acc). 
-Next we were exploring which parameters will work best using Grid Search from `sklearn.model_selection` (very good tool).
-At the end, we used the best parameters found to make a model and trained it on the training set which was 80% of the data (test set was ofc 20%) for 600 epochs.
-On top of that using a scheduler to fine-tune the appropriate learinig rate for optimized learning.
+Then we did a quick check how random forest will perform (93% acc). 
+Next we were exploring which parameters will work best using Grid Search.
+At the end, we used the best parameters found to make a model and trained it on the training set for 600 epochs.
+On top of that using a scheduler to fine-tune the learinig rate.
 
-**final accuracy**: 0.9314 - wchich is not bad at all
+**final accuracy**: 0.9314
 
 ### Accuracy over epochs
 ![image](https://github.com/user-attachments/assets/feeb18ec-78c1-4e65-8838-30eb589b7c61)
